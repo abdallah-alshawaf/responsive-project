@@ -45,6 +45,30 @@ body {
     align-items: center;
 }
 
+.menu {
+    position: fixed;
+    right: 2%;
+    top: 3%;
+    background-color: #5B5B5B;
+    padding: 11.5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.menu:hover > .menu-icon {
+    color: rgb(233, 232, 232);
+}
+
+.menu-icon {
+    font-size: 20px;
+    color: white;
+    transition: all .2s;
+
+}
+
 .reflex-header-section {
     display: flex;
     flex-direction: row;
