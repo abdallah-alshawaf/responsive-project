@@ -247,3 +247,30 @@ Tools Section
     margin-top: 50px;
     font-size: 18px;
 }
+
+.reflex-note {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 0;
+
+    background-image: url('./img/view.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.reflex-note * {
+    color: white;
+}
+
+.btn-note {
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.casual-line-white {
+    border: 1px solid white;
+}
