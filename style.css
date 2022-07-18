@@ -18,8 +18,7 @@
 
 *,*::before, *::after {
     box-sizing: border-box;
-    font-family: 'Nunito Sans', sans-serif;
-
+    
 }
 
 body {
@@ -29,6 +28,8 @@ body {
     width: 100vw;
     font-weight: 400;    
     color: gray;
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
@@ -115,4 +116,83 @@ body {
 .btn-header {
     display: inline-block;
     margin-top: 20px;
+}
+
+/*
+Tools Section
+*/
+
+.reflex-tools {
+    background-color: #F7F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: -1;
+    padding: 80px 0;
+}
+
+.titles {
+    font-weight: 300;
+    font-size: 40px;
+    color: var(--color-primary);
+    margin-bottom: 5px;
+}
+
+.descriptions {
+    font-weight: 200;
+    width: 39%;
+}
+
+.icons-list {
+    font-size: 40px;
+    color: var(--color-primary);
+    position: relative;
+    z-index: 1;
+}
+
+.icon {
+    margin: 35px 30px;
+    padding: 40px;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    border-radius: 50%;
+    position: inherit;
+    background-color: #F7F6F6;
+}
+
+.icons-line {
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.reflex-tools p {
+    width: 80%;
+    font-size: 18px;
+}
+
+.casual-line {
+    width: 30%;
+    border: 1px rgb(0, 0, 0, 0.6) solid;
+}
+
+.reflex-stories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 0;
+
+}
+
+.descriptions-stories {
+    color: var(--color-primary);
 }
