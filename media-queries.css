@@ -1,0 +1,130 @@
+/* Tablets 900px */
+
+@media screen and (max-width: 900px) {
+    .icons-line {
+        display: none;
+    }
+    
+    .icon {
+        margin: 10px;
+    }
+
+
+    .reflex-header-section {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .reflex-header-img {
+        clip-path: circle(35%);
+        -webkit-clip-path: circle(35%);
+        margin-left: -30px;
+    }
+
+    .reflex-header-text {
+        width: 60%;
+    }
+
+    .reflex-header-text h1 {
+        margin-top: 15px;
+    }
+}
+
+/* Mobiles 600px */
+
+@media screen and (max-width: 600px) {
+    .img-container {
+        width: 60%;
+    }
+    .btn {
+        width: 70%;
+        text-align: center !important;
+    }
+
+    .story {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .reflex-header-text {
+        margin-left: 0;
+    }
+
+    .img-container {
+        margin-left: 30px;
+    }
+
+    .story-paragraph {
+        width: 100%;
+    }
+
+    .story-img {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .story-img-exchange {
+        order: 0;
+    }
+
+    .reflex-footer {
+        flex-direction: column;
+    }
+    .last-words {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .unique-note {
+        width: auto;
+    }
+
+    .nameandemail {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    input, textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* Mobiles 480px */
+
+@media screen and (max-width: 480px) { 
+    .descriptions {
+        width: 100%;
+    }
+    .icon {
+        font-size: 25px;
+    }
+    .titles {
+        font-size: 30px;
+    }
+
+    .reflex-header-text p {
+        font-size: 20px;
+    }
+
+    .reflex-header-text h1 {
+        font-size: 55px;
+    }
+
+    .icon {
+     padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 480px) { 
+    .reflex-header-text p {
+        font-size: 18px;
+    }
+
+}
