@@ -196,3 +196,54 @@ Tools Section
 .descriptions-stories {
     color: var(--color-primary);
 }
+
+.stories-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.story {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align:left;
+    margin-top: 30px;
+    width: 80%;
+}
+
+
+.story-img {
+    width: 100%;
+    max-width: 470px;
+    height: 350px;
+    object-fit: cover;
+    width: 40%;
+    margin-right: 50px;
+    border-radius: 10px;
+    opacity: 0.92;
+}
+
+.story-text {
+    width: 60%;
+}
+
+.story-paragraph {
+    width: 80%;
+    font-size: 18px;
+}
+
+.btn-story {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.story-img-exchange {
+    order: 1;
+}
+
+.closing-paragraph {
+    width: 80%;
+    margin-top: 50px;
+    font-size: 18px;
+}
