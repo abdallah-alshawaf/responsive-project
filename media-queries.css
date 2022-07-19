@@ -7,6 +7,11 @@
     
     .icon {
         margin: 10px;
+        padding: 30px;
+    }
+
+    .descriptions {
+        width: 55%;
     }
 
 
@@ -34,9 +39,24 @@
 /* Mobiles 600px */
 
 @media screen and (max-width: 600px) {
+
+    .icon {
+        margin: 5px;
+        padding: 20px;    
+    }
+
     .img-container {
         width: 60%;
     }
+
+    .reflex-header-text {
+        width: 75%;
+    }
+
+    .descriptions {
+        width: 90%;
+    }
+
     .btn {
         width: 70%;
         text-align: center !important;
@@ -69,6 +89,10 @@
 
     .story-img-exchange {
         order: 0;
+    }
+
+    .story-text {
+        width: 80%;
     }
 
     .reflex-footer {

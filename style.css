@@ -32,7 +32,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Refactoring Code */
+/* Refactoring Classes */
 
 .flex-center {
     display: flex;
@@ -144,9 +144,7 @@ body {
     margin-top: 20px;
 }
 
-/*
-Tools Section
-*/
+/* Tools Section */
 
 .reflex-tools {
     background-color: #F7F6F6;
